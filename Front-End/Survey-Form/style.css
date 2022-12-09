@@ -1,0 +1,16 @@
+/* input {
+  display: block;
+}
+label {
+  display: in;
+} */
+/* label {
+  display: inline-block;
+}
+input {
+  display: block;
+} */
+
+.first-sec input {
+  display: block;
+}
