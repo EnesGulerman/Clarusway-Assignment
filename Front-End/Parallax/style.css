@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8rem;
+}
+
+/* GENERAL DIV SETUP */
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.7;
+}
+
+/* FIRST PARALLAX BACKGROUND */
+.parallax__1 {
+  background-image: url(./images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* GENERAL SECTION SETUP (BOTH LIGHT AND DARK SECTION) */
+section {
+  padding: 3rem 5rem;
+  text-align: center;
+}
+section h2 {
+  padding-bottom: 2rem;
+}
+
+/* LIGHT SECTION */
+.bc__light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+/* SECOND PARALLAX BACKGROUND */
+.parallax__2 {
+  background-image: url(./images/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+/* CLARUSWAY LOGO  */
+.logo {
+  width: 30%;
+  margin: 1rem;
+}
+
+/* DARK SECTION */
+.bc__dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+/* THIRD PARALLAX BACKGROUND */
+.parallax__3 {
+  background-image: url(./images/bg3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+/* FOURTH PARALLAX BACKGROUND */
+.parallax__4 {
+  background-image: url(./images/bg4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+/* GENERAL HEADING STYLE */
+.heading-container {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+/* BIG HEADING */
+.heading__big {
+  background-color: black;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+}
+
+/* SMALL HEADING */
+.heading__small {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+  line-height: 5rem;
+}
