@@ -16,3 +16,26 @@
   height: 140px;
   width: 140px;
 }
+.team-members{
+    width: 250px;
+    border: 10px solid lightgrey;
+    
+}
+.social{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    color:aliceblue;
+    border-radius: 100%;
+    background-color: #333;
+    padding: 17px;
+    line-height: 4px;
+}
+
+.contact{
+    background-image: url(./img/map.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
