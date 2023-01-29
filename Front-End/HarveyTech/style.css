@@ -1,0 +1,18 @@
+.banner {
+  background-image: url(./img/banner.jpeg);
+  background-size: cover;
+  height: 94.2vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20%;
+  color: purple;
+}
+.social-icons {
+  border-radius: 50%;
+  background-color: darkred;
+  color: white;
+  padding-top: 26px;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+}
