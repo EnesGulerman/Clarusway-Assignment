@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    -webkit-box-reflect: below 0.5px linear-gradient(transparent, rgba(255,255,255,0.1));
+}
+.container-fluid p{
+    color: white;
+    font-size: 7rem;
+    letter-spacing: 0.6rem;
+}
