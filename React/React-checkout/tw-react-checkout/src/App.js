@@ -1,13 +1,10 @@
-
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Main from "./pages/Main.jsx";
 function App() {
   return (
     <div className="App">
-      
-   
-    <Header />
+      <Main />
     </div>
   );
 }
