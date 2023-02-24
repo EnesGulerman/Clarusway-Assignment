@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 
 const ShowButton = () =>{
 
+
+
     return(
         <div className='d-flex justify-content-center '>
-        <Button> Show / Hide</Button>
+        <Button>Toggle Button</Button>
         </div>
     )
 }
