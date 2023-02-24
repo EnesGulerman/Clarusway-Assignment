@@ -1,13 +1,13 @@
-import { useState } from 'react';
+
 import Button from 'react-bootstrap/Button';
 
-const ShowButton = () =>{
+const ShowButton = ({hideShowFunc, showAddProduct}) =>{
 
 
 
     return(
         <div className='d-flex justify-content-center '>
-        <Button>Toggle Button</Button>
+        <Button onClick={hideShowFunc}>{showAddProduct ? "Hide Add Product" : "Show Add Product"}</Button>
         </div>
     )
 }
