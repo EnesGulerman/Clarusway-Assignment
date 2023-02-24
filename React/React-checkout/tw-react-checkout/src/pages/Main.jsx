@@ -6,23 +6,24 @@ import { useState } from "react";
 import AddProducts from "../components/AddProducts";
 
 const Main = () => {
+  const [showAddProduct, setshowAddProduct] = useState(false);
 
-const [showAddProduct, setshowAddProduct]= useState(false)
-
-const hideShowFunc= () =>{ 
-    setshowAddProduct(!showAddProduct)
+  const hideShowFunc = () => {
+    setshowAddProduct(!showAddProduct);
     console.log(showAddProduct);
-}
+  };
 
   return (
     <div>
       <Header />
-      <ShowButton hideShowFunc = {hideShowFunc} showAddProduct={showAddProduct} />
-      <CartTotal />
-      {
-        showAddProduct ? <AddProducts /> : null
-      }
-      
+      <ShowButton hideShowFunc={hideShowFunc} showAddProduct={showAddProduct} />
+      {showAddProduct ? (
+        <div className="d-flex justify-content-center">
+          <AddProducts /> <CartTotal />{" "}
+        </div>
+      ) : (
+        <CartTotal />
+      )}
     </div>
   );
 };
