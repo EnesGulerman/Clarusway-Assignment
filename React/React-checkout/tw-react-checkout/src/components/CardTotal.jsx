@@ -1,11 +1,11 @@
 import ProductCard from "./ProductCard";
 
-const CartTotal = () => {
+const CardTotal = () => {
   return (
     <div className="d-flex justify-content-center mt-5">
       <div className="row">
         <div>
-          <h2>Cart Total</h2>
+          <h2>Card Total</h2>
         </div>
 
         <div>
@@ -16,4 +16,4 @@ const CartTotal = () => {
   );
 };
 
-export default CartTotal
+export default CardTotal

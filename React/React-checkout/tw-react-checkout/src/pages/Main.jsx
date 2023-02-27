@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import { Button } from "react-bootstrap";
 import ShowButton from "../components/ShowButton";
-import CartTotal from "../components/CartTotal";
+import CardTotal from "../components/CardTotal";
 import { useState } from "react";
 import AddProducts from "../components/AddProducts";
 
@@ -19,10 +19,10 @@ const Main = () => {
       <ShowButton hideShowFunc={hideShowFunc} showAddProduct={showAddProduct} />
       {showAddProduct ? (
         <div className="d-flex justify-content-center">
-          <AddProducts /> <CartTotal />{" "}
+          <AddProducts /> <CardTotal />{" "}
         </div>
       ) : (
-        <CartTotal />
+        <CardTotal />
       )}
     </div>
   );
